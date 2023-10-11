@@ -32,9 +32,9 @@ pipeline {
             }
         }
     }
-}
 
-/*        
+
+        
         stage("TrainModel") {
             steps { 
               sh """
@@ -54,7 +54,8 @@ pipeline {
                   }
               }
       }
-
+}
+/*
       stage("DeployToTest") {
             steps { 
               sh """
